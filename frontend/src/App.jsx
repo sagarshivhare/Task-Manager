@@ -159,7 +159,8 @@ function App() {
                           >
                             {todo.completed && <MdOutlineDone />}
                           </button>
-                          <span className="text-gray-800 font-medium truncate">
+                          <span className={`text-gray-800 font-medium truncate
+                            ${todo.completed ? "line-through text-gray-500" : "" }`}>
                             {todo.text}
                           </span>
                         </div>
