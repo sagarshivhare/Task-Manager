@@ -28,9 +28,7 @@ A **full-stack MERN application** for managing tasks with CRUD functionality, Mo
 - [Features](#-features)
 - [Folder Structure](#-folder-structure)
 - [Installation](#-installation)
-- [Projects in Progress](#-projects-in-progress)
 - [Contact](#-contact)
-- [License](#-license)
 
 ---
 
@@ -64,19 +62,21 @@ Users can add, update, delete, and mark tasks as completed — all changes are s
 ---
 
 ## 📂 Folder Structure
+```
 Task-Manager/
 │
-├── backend/ # Express.js + MongoDB backend
-│ ├── config/ # Database configuration
-│ ├── models/ # Mongoose models
-│ ├── routes/ # API routes
-│ └── server.js # Server entry point
+├── backend/           # Express.js + MongoDB backend
+│   ├── config/        # Database configuration
+│   ├── models/        # Mongoose models
+│   ├── routes/        # API routes
+│   └── server.js      # Server entry point
 │
-├── frontend/ # React + Vite frontend
-│ ├── public/ # Static assets
-│ └── src/ # React components and styles
+├── frontend/          # React + Vite frontend
+│   ├── public/        # Static assets
+│   └── src/           # React components and styles
 │
-└── package.json # Main project dependencies
+└── package.json       # Main project dependencies
+```
 
 ---
 
