@@ -87,17 +87,17 @@ function App() {
 
         <form
           onSubmit={addTodo}
-          className="flex items-center 
+          className="flex flex-col sm:flex-row items-center 
           gap-2 shadow-sm border border-gray-200 
           p-2 rounded-lg"
         >
           <input
-            className="flex-1 outline-none px-3 py-2
+            className="w-full sm:flex-1 outline-none px-3 py-2
             text-gray-700 placeholder-gray-400"
             type="text"
             value={newTodo}
             onChange={(e) => setnewTodo(e.target.value)}
-            placeholder="what needs to be done?"
+            placeholder="What needs to be done?"
             required
           />
           <button
