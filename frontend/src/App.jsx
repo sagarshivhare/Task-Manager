@@ -97,7 +97,7 @@ function App() {
             type="text"
             value={newTodo}
             onChange={(e) => setnewTodo(e.target.value)}
-            placeholder="What needs to be done?"
+            placeholder="Add task...?"
             required
           />
           <button
