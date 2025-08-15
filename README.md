@@ -22,6 +22,11 @@ A **full-stack MERN application** for managing tasks with CRUD functionality, Mo
 
 ---
 
+## 🚀 Live Demo
+[**Click here to view the live project**](https://task-manager-5l7h.onrender.com)
+
+---
+
 ## 📑 Table of Contents
 - [About the Project](#-about-the-project)
 - [Tech Stack](#-tech-stack)
@@ -65,17 +70,40 @@ Users can add, update, delete, and mark tasks as completed — all changes are s
 ```
 Task-Manager/
 │
-├── backend/           # Express.js + MongoDB backend
-│   ├── config/        # Database configuration
-│   ├── models/        # Mongoose models
-│   ├── routes/        # API routes
-│   └── server.js      # Server entry point
-│
-├── frontend/          # React + Vite frontend
-│   ├── public/        # Static assets
-│   └── src/           # React components and styles
-│
-└── package.json       # Main project dependencies
+├── .gitignore
+├── README.md
+├── backend
+    ├── config
+    │   └── db.js
+    ├── models
+    │   └── todo.model.js
+    ├── routes
+    │   └── todo.route.js
+    └── server.js
+├── frontend
+    ├── .gitignore
+    ├── README.md
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+    │   └── todos.png
+    ├── src
+    │   ├── App.jsx
+    │   ├── assets
+    │   │   └── react.svg
+    │   ├── index.css
+    │   └── main.jsx
+    └── vite.config.js
+├── package-lock.json
+└── package.json
+
+/.gitignore:
+--------------------------------------------------------------------------------
+1 | /node_modules
+2 | .env
+
 ```
 
 ---
